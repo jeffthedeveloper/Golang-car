@@ -3,9 +3,9 @@ package car_service
 import (
 	"context"
 
-	"github.com/jhonyaltoe/go-car-shop/api/database/entities"
-	carModel "github.com/jhonyaltoe/go-car-shop/api/database/models/car"
-	"github.com/jhonyaltoe/go-car-shop/api/helpers"
+	"github.com/jeffthedeveloper/go-car-shop/api/database/entities"
+	carModel "github.com/jeffthedeveloper/go-car-shop/api/database/models/car"
+	"github.com/jeffthedeveloper/go-car-shop/api/helpers"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 
