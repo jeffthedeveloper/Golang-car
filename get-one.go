@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/jhonyaltoe/go-car-shop/api/helpers"
+	"github.com/jeffthedeveloper/go-car-shop/api/helpers"
 )
 
 func (c *carController) GetOne(res http.ResponseWriter, req *http.Request) {
