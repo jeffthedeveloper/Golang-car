@@ -2,8 +2,8 @@ package routes
 
 import (
 	"github.com/gorilla/mux"
-	carController "github.com/jhonyaltoe/go-car-shop/api/controllers/car"
-	connect "github.com/jhonyaltoe/go-car-shop/api/database"
+	carController "github.com/jeffthedeveloper/go-car-shop/api/controllers/car"
+	connect "github.com/jeffthedeveloper/go-car-shop/api/database"
 )
 
 func CarRoutes() *mux.Router {
