@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/jhonyaltoe/go-car-shop/api/database/entities"
-	"github.com/jhonyaltoe/go-car-shop/api/helpers"
+	"github.com/jeffthedeveloper/Golang-car/api/database/entities"
+	"github.com/jeffthedeveloper/Golang-car/api/helpers"
 )
 
 func (c *carController) CreateOne(res http.ResponseWriter, req *http.Request) {
