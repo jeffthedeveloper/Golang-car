@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/jhonyaltoe/go-car-shop/api/helpers"
+	"github.com/jeffthedeveloper/Golang-car/api/helpers"
 )
 
 func (c *carController) GetAll(res http.ResponseWriter, req *http.Request) {
