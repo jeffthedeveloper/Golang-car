@@ -3,7 +3,7 @@ package car_controller
 import (
 	"net/http"
 
-	carService "github.com/jhonyaltoe/go-car-shop/api/services/car"
+	carService "github.com/jeffthedeveloper/Golang-car/api/services/car"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 
